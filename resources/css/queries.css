@@ -1,0 +1,91 @@
+/* Big tablet to 1200px (width smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 80px 10px; }
+    
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #e8494e;
+    }
+    .main-div{
+        position: relative;
+        width: 80%;
+        height: 75%;
+        top: 10%;
+        left: 10%;
+    }
+    .skill-title {
+        font-size: 90%;
+        line-height: 145%;
+        font-weight: 700;
+        width: 200px;
+        padding: 10px 0;
+    }
+
+    .main-div #left {
+        height: 70%;
+        width: 30%;
+        float: left;
+        background-color: #fff;
+    }
+
+    #left #image {
+        margin: 10%;
+        height: 80%;
+        background-image: url(img/dhruv.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+    #right {
+        float: left;
+        height: 70%;
+        width: 65%;
+        background-color: #fff;
+    }
+
+    .main-div #bottom {
+        clear: both;
+        height: 15%;
+        width: 95%;
+        background-color: #e8494e;
+    }
+
+    .skill-value {
+        word-spacing: 1px;
+    }
+
+}
+
+/* Small phones to small tablet: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    .row { padding: 0 4%; }
+    .main-nav li {
+        margin: 0 15px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+      font-size: 70%;
+      font-weight: 500;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0;}
+}
