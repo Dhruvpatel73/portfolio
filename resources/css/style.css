@@ -91,8 +91,7 @@ header {
     width: 66%;
     height: 75%;
     top: 10%;
-    left: 17%;
-    
+    left: 17%;   
 }
 
 .main-div #left {
@@ -108,7 +107,6 @@ header {
     background-image: url(img/dhruv.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
 #right {
@@ -237,6 +235,9 @@ h2:after {
 /* SKILLS */
 /*-------------------------------------------*/
 
+tabel {
+    margin-left: 10%;
+}
 .skill-title {
     font-size: 90%;
     line-height: 145%;
