@@ -87,7 +87,7 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 517px) {
-   
+    body { font-size: 16px; }
     section { padding: 25px 0;}
 
     .main-nav li a:link,
@@ -162,5 +162,45 @@
         background-color: #fff;
         padding-left: 30px;
         padding-bottom: 10px;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 420px) {
+     body { font-size: 14px; }
+    section { padding: 55px 5px;}
+     .main-nav li a:link,
+    .main-nav li a:visited {
+      font-size: 75%;
+      font-weight: 500;
+    }
+    .main-nav li { margin: 0 8px; }
+
+    .main-div{
+        width: 80%;
+        height: 60%;
+        top: 10%;
+        left: 12%;
+    }
+    #right {
+        height: 70%;
+        width: 95%;
+    }
+    .greet { margin-bottom: 5px; }
+    .social-links li a:link,
+    .social-links li a:visited{
+        margin: 5px 12px;
+        font-size: 130%;
+    }
+    h1{
+        margin: 3% 0;
+        font-size: 230%;
+    }
+    .role { font-size: 100%; }
+    #profile { margin: 10% 10% 0 10%; }
+
+    .social-links {
+        margin-top: 7%;
     }
 }

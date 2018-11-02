@@ -135,6 +135,11 @@ h1 span:first-child {
     font-weight: 300;
 }
 
+.role {
+    font-weight: 500;
+    font-size: 90%;
+    margin-top: 2px;
+}
 #right-bottom ul {
     list-style: none;
     margin: 5% 10%;
@@ -146,11 +151,6 @@ ul li span:first-child {
     width: 100px;
 }
 
-.role {
-    font-weight: 500;
-    font-size: 90%;
-    margin-top: 2px;
-}
 
 #profile {
     margin: 5% 10% 0 10%;
